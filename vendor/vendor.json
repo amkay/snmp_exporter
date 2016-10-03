@@ -8,6 +8,11 @@
 			"revisionTime": "2016-03-17T14:11:10Z"
 		},
 		{
+			"path": "github.com/amkay/gosnmp",
+			"revision": "7e4a92a201cface88e41f84977b526de27e22cd4",
+			"revisionTime": "2016-10-03T13:25:39Z"
+		},
+		{
 			"path": "github.com/beorn7/perks/quantile",
 			"revision": "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9",
 			"revisionTime": "2016-08-04T12:47:26+02:00"
@@ -66,11 +71,6 @@
 			"path": "github.com/prometheus/procfs",
 			"revision": "406e5b7bfd8201a36e2bb5f7bdae0b03380c2ce8",
 			"revisionTime": "2015-10-29T15:50:50-04:00"
-		},
-		{
-			"path": "github.com/soniah/gosnmp",
-			"revision": "db6b5e552bd4a54e1692046a03b4dd8682cdcd6f",
-			"revisionTime": "2016-09-11T02:16:57-08:00"
 		},
 		{
 			"path": "golang.org/x/sys/unix",

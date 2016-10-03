@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/soniah/gosnmp"
+	"github.com/amkay/gosnmp"
 	"gopkg.in/yaml.v2"
 )
 

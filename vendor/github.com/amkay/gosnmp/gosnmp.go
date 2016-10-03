@@ -443,6 +443,15 @@ func ToBigInt(value interface{}) *big.Int {
 		if val, err = strconv.ParseInt(value, 10, 64); err != nil {
 			return new(big.Int)
 		}
+	case []byte:
+		strValue := string(value[:])
+		var err error
+
+		val, err = strconv.ParseInt(strValue, 10, 64)
+
+		if err != nil {
+			return new(big.Int)
+		}
 	default:
 		return new(big.Int)
 	}

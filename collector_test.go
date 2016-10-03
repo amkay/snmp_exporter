@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/soniah/gosnmp"
+	"github.com/amkay/gosnmp"
 )
 
 func TestOidToList(t *testing.T) {

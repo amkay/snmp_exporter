@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/amkay/gosnmp"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
-	"github.com/soniah/gosnmp"
 )
 
 var (
